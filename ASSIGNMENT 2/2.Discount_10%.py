@@ -1,0 +1,6 @@
+price1=int(input())
+price2=int(input())
+discounted_price1=price1-((price1*10)/100)
+discounted_price2=price2-((price2*10)/100)
+print("{:.2f}".format(discounted_price1),end=' ')
+print("{:.2f}".format(discounted_price2))

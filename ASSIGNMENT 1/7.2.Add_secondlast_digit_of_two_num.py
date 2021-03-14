@@ -1,0 +1,6 @@
+num1=input()
+num2=input()
+s1=str(num1[-2])
+s2=str(num2[-2])
+res=int(s1)+int(s2)
+print(res)

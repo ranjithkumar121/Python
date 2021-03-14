@@ -1,0 +1,5 @@
+lst = list(map(int,input().split()))
+e=int(input())
+lst.reverse()
+res=lst.index(e)
+print(len(lst)-res-1)

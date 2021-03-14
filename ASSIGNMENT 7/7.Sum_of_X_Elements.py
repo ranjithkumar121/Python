@@ -1,0 +1,6 @@
+lst = list(map(int,input().split()))
+x=int(input())
+sum1=sum(lst[0:x])
+sum2=sum(lst[x:])
+print("Sum of first",x,"elements:",sum1)
+print("Sum of remaining elements:",sum2)

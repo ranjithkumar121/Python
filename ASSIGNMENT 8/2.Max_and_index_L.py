@@ -1,0 +1,6 @@
+lst=list(map(int,input().split()))
+lst.reverse()
+maxi=max(lst)
+index=lst.index(maxi)
+print(maxi,end=' ')
+print(len(lst)-index-1)
